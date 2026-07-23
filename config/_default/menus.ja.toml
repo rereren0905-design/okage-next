@@ -1,0 +1,14 @@
+[[main]]
+  name = "ホーム"
+  pageRef = "/"
+  weight = 10
+
+[[main]]
+  name = "サービス"
+  url = "/#サービス"
+  weight = 20
+
+[[main]]
+  name = "お問い合わせ"
+  url = "/#お問い合わせ"
+  weight = 30

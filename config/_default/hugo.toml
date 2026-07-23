@@ -1,0 +1,10 @@
+baseURL = "https://okage-next.rereren0905.workers.dev/"
+languageCode = "ja"
+defaultContentLanguage = "ja"
+title = "OKAGE NEXT"
+theme = "blowfish"
+
+[params]
+  colorScheme = "blowfish"
+  defaultAppearance = "light"
+  autoSwitchAppearance = false
