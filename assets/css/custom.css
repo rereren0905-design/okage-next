@@ -400,7 +400,7 @@ line-height:2;
   margin: 0;
   color: #dd7335;
   font-size: clamp(2rem, 4vw, 3rem);
-  font-weight: 800;
+ font-weight: 400;
   letter-spacing: 0.16em;
   line-height: 1.2;
 }
