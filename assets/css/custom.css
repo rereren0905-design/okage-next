@@ -397,7 +397,7 @@ line-height:2;
 }
 /* ブランド名 */
 .okage-brand-name {
-  margin: 0;
+  margin: 0 0 0.25rem 0;
   color: #dd7335;
   font-size: clamp(2rem, 4vw, 3rem);
  font-weight: 600;
