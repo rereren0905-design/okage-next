@@ -1,0 +1,1071 @@
+/* =====================================
+   OKAGE NEXT 専用トップページ
+===================================== */
+
+body {
+  background: #f7f3ed !important;
+  color: #24303a;
+}
+
+#main-content {
+  width: 100%;
+  max-width: none;
+  padding: 0;
+}
+
+#main-content > article {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+}
+
+/* トップページのテーマ標準タイトルを非表示 */
+#main-content > article > header {
+  display: none !important;
+}
+
+/* 共通幅 */
+.okage-section-inner,
+.okage-hero-inner {
+  width: min(1120px, calc(100% - 40px));
+  margin: 0 auto;
+}
+
+/* ヒーロー */
+.okage-hero {
+  padding: 72px 0 64px;
+  background:
+    radial-gradient(circle at top right, rgba(239, 111, 34, 0.12), transparent 34%),
+    linear-gradient(180deg, #fffaf5 0%, #f7f3ed 100%);
+}
+
+.okage-hero-inner {
+  text-align: center;
+}
+
+.okage-hero-logo {
+  display: block;
+  width: 170px;
+  max-width: 55%;
+  height: auto;
+  margin: 0 auto 28px;
+}
+
+.okage-hero-label {
+  margin: 0 0 14px;
+  color: #d9651e;
+  font-size: 0.95rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+}
+
+.okage-hero-title {
+  margin: 0;
+  color: #1f2933;
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  font-weight: 800;
+  line-height: 1.35;
+  letter-spacing: 0.04em;
+}
+
+.okage-hero-lead {
+  margin: 24px 0 0;
+  color: #263742;
+  font-size: clamp(1.25rem, 2.2vw, 1.7rem);
+  font-weight: 700;
+  line-height: 1.8;
+}
+
+.okage-hero-description {
+  margin: 22px auto 0;
+  max-width: 760px;
+  color: #5b6470;
+  font-size: 1.05rem;
+  line-height: 2;
+}
+
+.okage-hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-top: 34px;
+}
+
+.okage-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 220px;
+  padding: 15px 26px;
+  border-radius: 999px;
+  font-weight: 700;
+  text-decoration: none !important;
+  transition: 0.2s ease;
+}
+
+.okage-button:hover {
+  transform: translateY(-2px);
+}
+
+.okage-button-primary {
+  color: #fff !important;
+  background: #e86f27;
+  box-shadow: 0 10px 24px rgba(232, 111, 39, 0.25);
+}
+
+.okage-button-primary:hover {
+  background: #d85f19;
+}
+
+.okage-button-secondary {
+  color: #d85f19 !important;
+  background: #fff;
+  border: 2px solid #e86f27;
+}
+
+.okage-button-secondary:hover {
+  background: #fff6ef;
+}
+
+/* 信頼ポイント */
+.okage-trust {
+  padding: 0 0 72px;
+}
+
+.okage-trust-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+.okage-trust-item {
+  padding: 26px 22px;
+  text-align: center;
+  background: #fff;
+  border: 1px solid #eee4da;
+  border-radius: 18px;
+  box-shadow: 0 10px 28px rgba(71, 54, 38, 0.06);
+}
+
+.okage-trust-item strong {
+  display: block;
+  margin-bottom: 8px;
+  color: #263742;
+  font-size: 1.08rem;
+}
+
+.okage-trust-item span {
+  color: #6b7280;
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+/* セクション */
+.okage-section {
+  padding: 82px 0;
+  background: #fff;
+}
+
+.okage-section-label {
+  margin: 0 0 8px;
+  color: #e86f27;
+  font-size: 0.85rem;
+  font-weight: 800;
+  letter-spacing: 0.18em;
+  text-align: center;
+}
+
+.okage-section-title {
+  margin: 0 0 42px;
+  color: #1f2933;
+  font-size: clamp(1.8rem, 3vw, 2.6rem);
+  text-align: center;
+}
+
+/* サービスカード */
+.okage-service-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+
+.okage-service-card {
+  padding: 32px 28px;
+  background: #fffaf6;
+  border: 1px solid #f0e0d4;
+  border-radius: 20px;
+  box-shadow: 0 10px 28px rgba(71, 54, 38, 0.06);
+}
+
+.okage-card-number {
+  margin: 0 0 18px;
+  color: #e86f27;
+  font-size: 0.9rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+}
+
+.okage-service-card h3 {
+  margin: 0 0 15px;
+  color: #24303a;
+  font-size: 1.35rem;
+}
+
+.okage-service-card p {
+  margin: 0;
+  color: #626b75;
+  line-height: 1.9;
+}
+/* お問い合わせ */
+.okage-contact {
+  padding: 88px 0;
+  text-align: center;
+  background:
+    radial-gradient(
+      circle at top left,
+      rgba(232, 111, 39, 0.12),
+      transparent 34%
+    ),
+    #f2e9df;
+}
+
+.okage-contact-lead {
+  margin: 0;
+  color: #37424c;
+  font-size: 1.15rem;
+  font-weight: 700;
+  line-height: 1.9;
+}
+
+.okage-contact-subtext {
+  margin: 18px 0 0;
+  color: #626b75;
+  line-height: 1.9;
+}
+
+.okage-contact-buttons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  max-width: 1000px;
+  margin: 36px auto 0;
+}
+
+.okage-contact-button {
+  display: flex;
+  min-height: 130px;
+  padding: 24px 20px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #24303a !important;
+  text-decoration: none !important;
+  background: #ffffff;
+  border: 1px solid #eadfd5;
+  border-radius: 18px;
+  box-shadow: 0 10px 28px rgba(71, 54, 38, 0.08);
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+a.okage-contact-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 16px 34px rgba(71, 54, 38, 0.12);
+}
+
+.okage-contact-phone {
+  border-top: 5px solid #e86f27;
+}
+
+.okage-contact-email {
+  border-top: 5px solid #dd7335;
+}
+
+.okage-contact-line {
+  border-top: 5px solid #7eaa70;
+}
+
+.okage-contact-button-label {
+  display: block;
+  margin-bottom: 10px;
+  color: #6b7280;
+  font-size: 0.88rem;
+  font-weight: 700;
+}
+
+.okage-contact-button strong {
+  color: #263742;
+  font-size: 1.12rem;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+
+.okage-contact-button.is-preparing {
+  opacity: 0.72;
+  cursor: default;
+}
+
+.okage-contact-notice {
+  max-width: 760px;
+  margin: 28px auto 0;
+  color: #6b7280;
+  font-size: 0.9rem;
+  line-height: 1.8;
+}
+
+/* スマホ */
+@media (max-width: 760px) {
+  .okage-section-inner,
+  .okage-hero-inner {
+    width: min(100% - 28px, 1120px);
+  }
+
+  .okage-hero {
+    padding: 46px 0 48px;
+  }
+
+  .okage-hero-logo {
+    width: 135px;
+  }
+
+  .okage-hero-description br {
+    display: none;
+  }
+
+  .okage-hero-buttons {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .okage-button {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .okage-trust {
+    padding-bottom: 52px;
+  }
+
+  .okage-trust-grid,
+  .okage-service-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .okage-section,
+  .okage-contact {
+    padding: 58px 0;
+  }
+}.okage-profile{
+
+padding:90px 0;
+
+background:white;
+
+text-align:center;
+
+}
+
+.okage-profile-image {
+  display: block;
+  width: 300px;
+  max-width: 80%;
+  height: auto;
+  margin: 30px auto;
+  border-radius: 0;
+  box-shadow: none;
+  background: transparent;
+}
+
+.okage-profile h3{
+
+font-size:2rem;
+
+margin-bottom:20px;
+
+}
+
+.okage-profile p{
+
+max-width:700px;
+
+margin:18px auto;
+
+line-height:2;
+
+}
+/* ブランド名 */
+.okage-brand-name {
+  margin: 0;
+  color: #dd7335;
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  line-height: 1.2;
+}
+
+/* ブランドメッセージ */
+.okage-brand-message {
+  margin: 16px 0 24px;
+  color: #dd7335;
+  font-size: clamp(1rem, 2vw, 1.25rem);
+  font-weight: 700;
+  letter-spacing: 0.12em;
+}
+
+/* 上部ロゴ */
+.okage-hero-logo {
+  width: 155px;
+  margin-bottom: 26px;
+}
+
+/* メイン見出し */
+.okage-hero-title {
+  margin-top: 18px;
+  font-size: clamp(1.5rem, 3vw, 2.35rem);
+  line-height: 1.65;
+}
+
+@media (max-width: 640px) {
+  .okage-brand-name {
+    font-size: 2rem;
+    letter-spacing: 0.1em;
+  }
+
+  .okage-brand-message {
+    font-size: 1rem;
+    letter-spacing: 0.08em;
+  }
+
+  .okage-hero-logo {
+    width: 130px;
+  }
+}/* 左上のサイト名を消す */
+#the-top .site-title {
+  display: none !important;
+}
+
+/* 検索アイコンを消す */
+#the-top button[title="検索"] {
+  display: none !important;
+}
+
+/* ダークモード（月）を消す */
+#the-top button[title*="外観"],
+#the-top button[title*="appearance"] {
+  display: none !important;
+}/* ヘッダー左上のサイト名を非表示 */
+.main-menu > a[href="/"] {
+  display: none !important;
+}
+
+/* 検索アイコンを非表示 */
+#search-button {
+  display: none !important;
+}
+
+/* ダークモード切り替えを非表示 */
+#appearance-switcher {
+  display: none !important;
+}html {
+  scroll-behavior: smooth;
+}
+
+/* メニュー移動時、見出しが上部に隠れないようにする */
+#services,
+#reasons,
+#profile,
+#contact {
+  scroll-margin-top: 90px;
+}/* 施術で大切にしていること */
+.okage-approach {
+  padding: 82px 0;
+  background: #f7f3ed;
+}
+
+.okage-approach-content {
+  max-width: 820px;
+  margin: 0 auto;
+  padding: 38px 42px;
+  background: #ffffff;
+  border: 1px solid #eee2d7;
+  border-radius: 20px;
+  box-shadow: 0 12px 30px rgba(71, 54, 38, 0.06);
+}
+
+.okage-approach-content p {
+  margin: 0 0 22px;
+  color: #505a64;
+  font-size: 1.05rem;
+  line-height: 2;
+}
+
+.okage-approach-content p:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 760px) {
+  .okage-approach {
+    padding: 58px 0;
+  }
+
+  .okage-approach-content {
+    padding: 28px 22px;
+  }
+
+  .okage-approach-content p {
+    font-size: 1rem;
+    line-height: 1.9;
+  }
+}.okage-philosophy {
+  text-align: center;
+}
+
+.okage-philosophy p {
+  max-width: 760px;
+  margin: 0 auto 16px;
+  line-height: 2;
+}@media (max-width: 760px) {
+  .okage-contact {
+    padding: 58px 0;
+  }
+
+  .okage-contact-lead br,
+  .okage-contact-subtext br,
+  .okage-contact-notice br {
+    display: none;
+  }
+
+  .okage-contact-buttons {
+    grid-template-columns: 1fr;
+    gap: 14px;
+    margin-top: 28px;
+  }
+
+  .okage-contact-button {
+    min-height: 110px;
+    padding: 20px 16px;
+  }
+
+  .okage-contact-button strong {
+    font-size: 1.05rem;
+  }
+}/* ご利用までの流れ */
+.okage-flow {
+  padding: 82px 0;
+  background: #ffffff;
+}
+
+.okage-flow-lead {
+  margin: -18px auto 38px;
+  color: #626b75;
+  text-align: center;
+  line-height: 1.9;
+}
+
+.okage-flow-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+}
+
+.okage-flow-item {
+  position: relative;
+  padding: 32px 24px;
+  background: #fffaf6;
+  border: 1px solid #f0e0d4;
+  border-radius: 20px;
+  box-shadow: 0 10px 28px rgba(71, 54, 38, 0.06);
+}
+
+.okage-flow-number {
+  display: inline-flex;
+  width: 46px;
+  height: 46px;
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 0.9rem;
+  font-weight: 800;
+  background: #e86f27;
+  border-radius: 50%;
+}
+
+.okage-flow-item h3 {
+  margin: 0 0 14px;
+  color: #24303a;
+  font-size: 1.18rem;
+}
+
+.okage-flow-item p {
+  margin: 0;
+  color: #626b75;
+  font-size: 0.95rem;
+  line-height: 1.9;
+}
+
+.okage-flow-contact {
+  margin-top: 42px;
+  text-align: center;
+}
+
+.okage-flow-contact p {
+  margin: 0 0 20px;
+  color: #505a64;
+  font-weight: 700;
+}
+
+@media (max-width: 900px) {
+  .okage-flow-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .okage-flow {
+    padding: 58px 0;
+  }
+
+  .okage-flow-lead {
+    margin-top: -20px;
+    margin-bottom: 28px;
+  }
+
+  .okage-flow-grid {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .okage-flow-item {
+    padding: 26px 22px;
+  }
+}/* 無料体験バッジ */
+.okage-free-badge {
+  display: inline-block;
+  margin: 18px 0 24px;
+  padding: 10px 22px;
+  background: #fff3e6;
+  color: #d85f19;
+  border: 2px solid #f2b37c;
+  border-radius: 999px;
+  font-size: 0.95rem;
+  font-weight: 700;
+  box-shadow: 0 6px 18px rgba(232, 111, 39, 0.12);
+}/* こんな方におすすめです */
+.okage-recommended {
+  padding: 82px 0;
+  background: #f7f3ed;
+}
+
+.okage-recommended-lead {
+  max-width: 820px;
+  margin: -18px auto 38px;
+  color: #626b75;
+  text-align: center;
+  line-height: 1.9;
+}
+
+.okage-recommended-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.okage-recommended-item {
+  display: flex;
+  min-height: 104px;
+  padding: 24px 26px;
+  align-items: center;
+  gap: 16px;
+  background: #ffffff;
+  border: 1px solid #eee2d7;
+  border-radius: 18px;
+  box-shadow: 0 10px 28px rgba(71, 54, 38, 0.06);
+}
+
+.okage-check {
+  display: inline-flex;
+  width: 38px;
+  height: 38px;
+  flex: 0 0 38px;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 800;
+  background: #e86f27;
+  border-radius: 50%;
+}
+
+.okage-recommended-item p {
+  margin: 0;
+  color: #37424c;
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+.okage-recommended-note {
+  max-width: 760px;
+  margin: 32px auto 0;
+  color: #505a64;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.8;
+}
+
+.okage-recommended-contact {
+  margin-top: 24px;
+  text-align: center;
+}
+
+@media (max-width: 760px) {
+  .okage-recommended {
+    padding: 58px 0;
+  }
+
+  .okage-recommended-lead {
+    margin-top: -20px;
+    margin-bottom: 28px;
+    text-align: left;
+  }
+
+  .okage-recommended-grid {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .okage-recommended-item {
+    min-height: auto;
+    padding: 20px 18px;
+    align-items: flex-start;
+  }
+
+  .okage-check {
+    width: 34px;
+    height: 34px;
+    flex-basis: 34px;
+  }
+}/* 健康保険利用時の料金 */
+.okage-price {
+  padding: 82px 0;
+  background: #ffffff;
+}
+
+.okage-price-lead {
+  max-width: 760px;
+  margin: -18px auto 38px;
+  color: #626b75;
+  text-align: center;
+  line-height: 1.9;
+}
+
+.okage-price-card {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 42px;
+  background: #fffaf6;
+  border: 1px solid #f0e0d4;
+  border-radius: 22px;
+  box-shadow: 0 12px 30px rgba(71, 54, 38, 0.07);
+}
+
+.okage-price-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 34px;
+  text-align: center;
+}
+
+.okage-price-condition {
+  margin: 0;
+  padding: 14px 20px;
+  color: #505a64;
+  font-weight: 700;
+  line-height: 1.7;
+  background: #ffffff;
+  border-radius: 14px;
+}
+
+.okage-price-amount {
+  margin: 0;
+  color: #37424c;
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+
+.okage-price-amount span {
+  display: inline-block;
+  margin-left: 8px;
+  color: #e86f27;
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 800;
+}
+
+.okage-price-description {
+  margin: 28px auto 0;
+  color: #626b75;
+  text-align: center;
+  line-height: 1.9;
+}
+
+.okage-price-burden {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+  margin-top: 30px;
+}
+
+.okage-price-burden div {
+  padding: 22px 16px;
+  text-align: center;
+  background: #ffffff;
+  border: 1px solid #eee2d7;
+  border-radius: 16px;
+}
+
+.okage-price-burden strong,
+.okage-price-burden span {
+  display: block;
+}
+
+.okage-price-burden strong {
+  margin-bottom: 8px;
+  color: #e86f27;
+}
+
+.okage-price-burden span {
+  color: #37424c;
+  font-weight: 700;
+}
+
+.okage-price-notes {
+  max-width: 720px;
+  margin: 30px auto 0;
+  padding-left: 1.5em;
+  color: #626b75;
+  line-height: 1.9;
+}
+
+.okage-price-contact {
+  margin-top: 32px;
+  text-align: center;
+}
+
+.okage-price-contact p {
+  margin: 0 0 20px;
+  color: #505a64;
+  font-weight: 700;
+}
+
+@media (max-width: 760px) {
+  .okage-price {
+    padding: 58px 0;
+  }
+
+  .okage-price-lead {
+    margin-top: -20px;
+    margin-bottom: 28px;
+  }
+
+  .okage-price-card {
+    padding: 28px 20px;
+  }
+
+  .okage-price-main {
+    flex-direction: column;
+    gap: 18px;
+  }
+
+  .okage-price-amount span {
+    display: block;
+    margin: 4px 0 0;
+  }
+
+  .okage-price-burden {
+    grid-template-columns: 1fr;
+  }
+}/* 対応地域 */
+.okage-area {
+  padding: 82px 0;
+  background: #ffffff;
+}
+
+.okage-area-grid {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 24px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.okage-area-card {
+  padding: 36px;
+  background: #fffaf6;
+  border: 1px solid #f0e0d4;
+  border-radius: 20px;
+  box-shadow: 0 10px 28px rgba(71,54,38,.06);
+}
+
+.okage-area-card h3 {
+  margin-top: 0;
+  color: #e86f27;
+}
+
+.okage-area-card p {
+  line-height: 1.9;
+}
+
+.okage-area-card small {
+  display: block;
+  margin-top: 18px;
+  color: #777;
+}
+
+.okage-hours {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 18px;
+}
+
+.okage-hours th,
+.okage-hours td {
+  padding: 14px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.okage-hours th {
+  width: 35%;
+  text-align: left;
+  color: #37424c;
+}
+
+.okage-hours td {
+  font-weight: 700;
+}
+
+@media (max-width:760px){
+
+.okage-area{
+
+padding:58px 0;
+
+}
+
+.okage-area-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.okage-area-card{
+
+padding:24px;
+
+}
+
+}/* 施術時間 */
+.okage-treatment-time {
+  display: flex;
+  max-width: 760px;
+  margin: 26px auto 0;
+  padding: 24px 28px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 28px;
+  background: #ffffff;
+  border: 1px solid #eee2d7;
+  border-left: 5px solid #e86f27;
+  border-radius: 16px;
+}
+
+.okage-treatment-time-heading {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  gap: 14px;
+}
+
+.okage-treatment-time-icon {
+  display: inline-flex;
+  width: 46px;
+  height: 46px;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.35rem;
+  background: #fff3e8;
+  border-radius: 50%;
+}
+
+.okage-treatment-time h3 {
+  margin: 0 0 4px;
+  color: #37424c;
+  font-size: 1rem;
+}
+
+.okage-treatment-time-main {
+  margin: 0;
+  color: #e86f27;
+  font-size: 1.45rem;
+  font-weight: 800;
+}
+
+.okage-treatment-time-note {
+  max-width: 430px;
+  margin: 0;
+  color: #626b75;
+  font-size: 0.95rem;
+  line-height: 1.8;
+}
+
+@media (max-width: 760px) {
+  .okage-treatment-time {
+    padding: 22px 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .okage-treatment-time-note {
+    max-width: none;
+  }
+}/* ==========================
+   フッター
+========================== */
+
+.okage-footer {
+  margin-top: 80px;
+  padding: 40px 20px;
+  background: #24303a;
+  color: #ffffff;
+  text-align: center;
+}
+
+.okage-footer p {
+  margin: 0 0 12px;
+  color: rgba(255,255,255,.8);
+  font-size: 0.95rem;
+}
+
+.okage-footer a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: .2s;
+}
+
+.okage-footer a:hover {
+  color: #f39a5a;
+}
+
+@media (max-width:760px){
+
+.okage-footer{
+  padding:32px 20px;
+}
+
+}

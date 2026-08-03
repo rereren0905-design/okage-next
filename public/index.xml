@@ -1,13 +1,57 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>OKAGE NEXT</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on OKAGE NEXT</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ja</language>
-    <copyright>© 2026 </copyright>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>OKAGE NEXT</title><link>https://okagenext.jp/</link><description>Recent content on OKAGE NEXT</description><generator>Hugo -- gohugo.io</generator><language>ja</language><atom:link href="https://okagenext.jp/index.xml" rel="self" type="application/rss+xml"/><item><title>プライバシーポリシー</title><link>https://okagenext.jp/privacy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://okagenext.jp/privacy/</guid><description>&lt;h1 class="relative group"&gt;プライバシーポリシー
+ &lt;div id="プライバシーポリシー" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%e3%83%97%e3%83%a9%e3%82%a4%e3%83%90%e3%82%b7%e3%83%bc%e3%83%9d%e3%83%aa%e3%82%b7%e3%83%bc" aria-label="アンカー"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h1&gt;
+&lt;p&gt;OKAGE NEXT（以下、「当院」といいます。）は、お客様からお預かりする個人情報の重要性を認識し、個人情報の保護に関する法令を遵守するとともに、適切な管理に努めます。&lt;/p&gt;
+
+&lt;h2 class="relative group"&gt;1．取得する個人情報
+ &lt;div id="1取得する個人情報" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#1%e5%8f%96%e5%be%97%e3%81%99%e3%82%8b%e5%80%8b%e4%ba%ba%e6%83%85%e5%a0%b1" aria-label="アンカー"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;p&gt;当院では、お問い合わせやサービスのご利用にあたり、次のような情報を取得する場合があります。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;お名前&lt;/li&gt;
+&lt;li&gt;電話番号&lt;/li&gt;
+&lt;li&gt;メールアドレス&lt;/li&gt;
+&lt;li&gt;お問い合わせ内容&lt;/li&gt;
+&lt;li&gt;その他、ご相談やサービス提供に必要な情報&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 class="relative group"&gt;2．個人情報の利用目的
+ &lt;div id="2個人情報の利用目的" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#2%e5%80%8b%e4%ba%ba%e6%83%85%e5%a0%b1%e3%81%ae%e5%88%a9%e7%94%a8%e7%9b%ae%e7%9a%84" aria-label="アンカー"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;p&gt;取得した個人情報は、次の目的のために利用します。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;お問い合わせへの回答&lt;/li&gt;
+&lt;li&gt;ご予約・ご相談への対応&lt;/li&gt;
+&lt;li&gt;サービスの提供&lt;/li&gt;
+&lt;li&gt;必要なご連絡&lt;/li&gt;
+&lt;li&gt;サービス品質向上のため&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 class="relative group"&gt;3．個人情報の第三者提供
+ &lt;div id="3個人情報の第三者提供" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#3%e5%80%8b%e4%ba%ba%e6%83%85%e5%a0%b1%e3%81%ae%e7%ac%ac%e4%b8%89%e8%80%85%e6%8f%90%e4%be%9b" aria-label="アンカー"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;p&gt;取得した個人情報は、法令に基づく場合を除き、ご本人の同意なく第三者へ提供することはありません。&lt;/p&gt;</description></item></channel></rss>

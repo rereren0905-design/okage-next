@@ -1,0 +1,6 @@
+[header]
+layout = "basic"
+
+[footer]
+showCopyright = false
+showThemeAttribution = false

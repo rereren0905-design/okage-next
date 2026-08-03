@@ -1,14 +1,14 @@
 [[main]]
-  name = "ホーム"
-  pageRef = "/"
+  name = "サービス"
+  url = "/#services"
   weight = 10
 
 [[main]]
-  name = "サービス"
-  url = "/#サービス"
-  weight = 20
+  name = "代表紹介"
+  url = "/#profile"
+  weight = 30
 
 [[main]]
   name = "お問い合わせ"
-  url = "/#お問い合わせ"
-  weight = 30
+  url = "/#contact"
+  weight = 40
