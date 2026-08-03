@@ -401,7 +401,7 @@ line-height:2;
   color: #dd7335;
   font-size: clamp(2rem, 4vw, 3rem);
  font-weight: 600;
-  letter-spacing: 0.16em;
+ letter-spacing: 0.08em;
   line-height: 1.2;
 }
 
